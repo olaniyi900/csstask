@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+}
+
+/* header{
+    position: fixed;
+} */
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 1rem;
+    margin: 0 3rem;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #bd0d68;
+   
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+main{
+    width: 60%;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
+
+aside{
+    width: 30%;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
